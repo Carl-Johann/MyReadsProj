@@ -10,6 +10,12 @@ body, .app {
 
 /* main page */
 
+.narlort {
+  position: relative;  
+  left: 30%;
+  bottom: 50%;
+}
+
 .list-books-title {
   padding: 10px 0;
   background: #2e7c31;
@@ -121,6 +127,7 @@ body, .app {
 
 .book {
   width: 140px;
+  position: relative;
 }
 .book-title,
 .book-authors {
