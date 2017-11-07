@@ -5,7 +5,7 @@ body {
   line-height: 1.5;
 }
 body, .app {
-  background: white;
+  background: #e5e5e5;
 }
 
 /* main page */
@@ -38,7 +38,7 @@ body, .app {
 
 .list-books-title {
   padding: 10px 0;
-  background: #2e7c31;
+  background: #414141;
   text-align: center;
 }
 .list-books-title h1 {
@@ -63,7 +63,8 @@ body, .app {
 }
 
 .bookshelf-title {
-  border-bottom: 1px solid #dedede;
+  border-bottom: 1px solid black;
+
 }
 .bookshelf-books {
   text-align: center;
@@ -190,6 +191,10 @@ body, .app {
 .book-cover {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   background: #eee;
+  width: 128px;
+  height: 193px;
+  border-radius: 2px;
+
 }
 .book-cover-title {
   padding: 20px 10px 0;
