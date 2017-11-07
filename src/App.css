@@ -10,10 +10,30 @@ body, .app {
 
 /* main page */
 
-.narlort {
-  position: relative;  
-  left: 30%;
-  bottom: 50%;
+.bookMove {
+  display: inherit
+}
+
+.bookMove-enter {
+  opacity: 0;
+  /*width: 0px;*/
+}
+
+.bookMove-enter.bookMove-enter-active {
+  opacity: 1;
+  /*width: 100px;*/
+  transition: 1000ms;
+}
+
+.bookMove-leave {
+  opacity: 1;
+  width: 100px;
+}
+
+.bookMove-leave.bookMove-leave-active {
+  opacity: 0;
+  width: 0px;
+  transition: 1000ms;
 }
 
 .list-books-title {
@@ -109,8 +129,6 @@ body, .app {
   padding: 80px 10px 20px;
 }
 
-/* books grid */
-
 .books-grid {
   list-style-type: none;
   padding: 0;
@@ -127,7 +145,6 @@ body, .app {
 
 .book {
   width: 140px;
-  position: relative;
 }
 .book-title,
 .book-authors {

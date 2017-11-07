@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import * as BooksAPI from './BooksAPI';
 // import { Wave } from 'better-react-spinkit'
+import { CSSTransitionGroup } from 'react-transition-group'
+
 class Book extends Component {
     
 
@@ -56,7 +58,7 @@ class Book extends Component {
         return (
             <div>                
                 <li>
-                    {/*<Wave size={50} className="narlort" />*/}
+                    
                     <div className="book">
                         <div className="book-top">
                             <div className="book-cover" style={{ width: 128, height: 193, backgroundImage: `url(${book.imageLinks["thumbnail"]})` }}></div>
